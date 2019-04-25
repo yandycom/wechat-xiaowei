@@ -1,0 +1,17 @@
+{
+    "name": "yandy/wechat-xiaowei",
+    "description": "Wechat Small Micro Businessmen php sdk",
+    "keywords": ["wechat"],
+    "authors": [
+        {
+            "name": "yandy",
+            "email": "yandycom@126.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "wei\\": "src/"
+        }
+    }
+}
