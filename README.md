@@ -11,7 +11,7 @@
     <?php
 	use wei/Wechat;
 	$config = [
-	'appid' => 'wx123456',
+	   'appid' => 'wx123456',
         'secret' => '6b9bb37515ebd8f7d08c6329c5f5555',
         'mch_id' => '1245668921',  //商户号
         'serial_no' => '67E04C9243E70B7C38F371E4EB4907F10B171B45',  //商户证书序列号
