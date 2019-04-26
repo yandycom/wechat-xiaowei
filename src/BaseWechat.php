@@ -6,17 +6,9 @@
      * author: yandy  <yandycom@126.com>
      * DateTime: 2019-04-25
      */
-
     namespace wei;
-
-
     use wei\Exception\WxException;
-    use think\Config;
 
-    /**
-     * Class BaseWechat
-     * @package App\WechatXiaowei\V1\Services\wechat
-     */
     class BaseWechat
     {
         //请求API
