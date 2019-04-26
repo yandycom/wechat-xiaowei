@@ -21,7 +21,7 @@
 	
 	$wecaht = new Wechat($config);
 	try {
-            $res = $wechat->downloadCertificates();   //下载证书
+            $wechat->downloadCertificates();   //下载证书
             echo "成功";
         } catch (WxException $e) {
             echo $e->getMessage();
