@@ -50,3 +50,36 @@
 除了上面两个接口其余接口和参数请参考Wechat.php文件即可
 
 
+#### 实现的接口
+applyEnter 申请入驻小微商户
+
+submitUpGrade 小微商户升级接口
+
+upGradeIsThrough 小微商户升级接口状态查询
+
+createJsBizPackage  企业付款到用户零钱
+
+enquiryOfApplyStatus 入驻申请状态查询
+
+tenantConfig  关注配置  小微商户关注功能配置API
+
+payTheDirectoryConfig  支付目录配置   小微商户开发配置新增支付目录API
+
+bindAppIdConfig 绑定appid配置  小微商户新增对应APPID关联API
+
+inquireConfig 查询配置
+
+modifyArchives 小微商户修改资料接口-修改结算银行卡
+
+withdrawalState 服务商帮小微商户查询自动提现 - 查询提现状态
+
+withdrawStatusMsg 提现状态单据状态字段的中文描述
+
+reAutoWithdrawByDate 重新发起提现 - 服务商帮小微商户重新发起自动提现
+
+getApplyEnterList 获取入驻列表
+
+getBusiness 获取类目中文意思
+
+ getStoreAddress 传code获取中文地址
+
