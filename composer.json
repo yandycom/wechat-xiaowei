@@ -2,6 +2,7 @@
     "name": "yandy/wechat-xiaowei",
     "description": "Wechat Small Micro Businessmen php sdk",
     "keywords": ["wechat"],
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "yandy",
