@@ -207,12 +207,6 @@ class Wechat extends BaseWechat implements WechatApi {
 		$audit_detail = $rt['audit_detail'];
 		$rt['audit_detail'] = json_decode($audit_detail, true);
 
-		XwUpGrade::where(['sub_mch_id' => $rt['sub_mch_id'], 'uid' => $this->uid])->update([
-			'applyment_state' => $rt['applyment_state'],
-			'applyment_state_desc' => $rt['applyment_state_desc'],
-			'audit_detail' => $audit_detail,
-		]);
-
 		return $rt;
 	}
 
