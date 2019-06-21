@@ -1,6 +1,6 @@
 ﻿# wechat-xiaowei
 微信小微商户接口 全家桶 PHP SDK
-包含了小微商户全部接口（大部分代码来自[WechatXiaowei](https://github.com/liumenglei/WechatXiaowei) 感谢前辈）
+包含了小微商户全部接口
 
 [微信官方文档](https://pay.weixin.qq.com/wiki/doc/api/xiaowei.php?chapter=4_1)
 
